@@ -168,34 +168,28 @@ wsl --install
 
 <details>
 <summary><strong>Note</strong></summary>
+
+**The above command only works if WSL is not installed at all.*
 ```bash
-**The above command only works if WSL is not installed at all. If you run**
+If you run
 
 wsl --install
 
-
-**and see the WSL help text, please try running**
-
+and see the WSL help text, please try running
 
 wsl --list --online
 
-
 **to see a list of available distros and run**
-
 
 wsl --install -d[DistroName]
 
-
 **to install a distro. If the install process hangs at 0.0%, run**
 
-
 wsl --install --web-download -d[DistroName]
+
+**to first download the distribution prior to installing.**
 ```
-
-**to first download the distribution prior to installing.*  
-
 </details>
-
 </details>
 
 ## Change the Linux distribution Installed (ArchLinux)
