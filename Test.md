@@ -168,28 +168,27 @@ wsl --install
 
 <details>
 <summary><strong>Note</strong></summary>
-
+```bash
 **The above command only works if WSL is not installed at all. If you run**
 
-```bash
 wsl --install
-```
+
 
 **and see the WSL help text, please try running**
 
-```bash
+
 wsl --list --online
-```
+
 
 **to see a list of available distros and run**
 
-```bash
+
 wsl --install -d[DistroName]
-```
+
 
 **to install a distro. If the install process hangs at 0.0%, run**
 
-```bash
+
 wsl --install --web-download -d[DistroName]
 ```
 
