@@ -1,7 +1,5 @@
 # Installing WSL2/ArchLinux/PyTorch
 
----
-
 ## Install WSL 2
 
 <details>
