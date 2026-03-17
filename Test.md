@@ -136,7 +136,7 @@
 <details>
 <summary><strong>Unlisted Manufacturers</strong></summary>
 
-Refer to device's firmware documentation
+**Refer to device's firmware documentation*
 
 </details>
 
