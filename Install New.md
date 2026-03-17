@@ -3,11 +3,6 @@
 ## Install WSL 2
 
 <details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
-
-<details>
 <summary><strong>Enable Virtualization on Windows (Enabled by default on Windows manufactured PCs)</strong></summary>
 
 <br>
@@ -155,8 +150,6 @@ Refer to device's firmware documentation
 
 </details>
 
-</details>
-
 <details>
 <summary><strong>Install WSL 2 on Windows</strong></summary>
 
@@ -202,14 +195,7 @@ wsl --install --web-download -d[DistroName]
 
 </details>
 
-</details>
-
 ## Change the Linux distribution Installed (ArchLinux)
-
-<details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
 
 <details>
 <summary><strong>Open PowerShell</strong></summary>
@@ -233,14 +219,7 @@ wsl --set-version archlinux 2
 
 </details>
 
-</details>
-
 ## Setting up ArchLinux
-
-<details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
 
 <details>
 <summary><strong>Opening WSL 2</strong></summary>
@@ -481,14 +460,7 @@ startlxqt
 
 </details>
 
-</details>
-
 ## Install PyTorch
-
-<details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
 
 <details>
 <summary><strong>Install Python3.13</strong></summary>
@@ -522,14 +494,7 @@ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu13
 
 </details>
 
-</details>
-
 ## Set up Text to Speech (TTS)
-
-<details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
 
 <details>
 <summary><strong>Install Speechbrain in venv</strong></summary>
@@ -629,7 +594,5 @@ python3
 
 ```bash
 ```
-
-</details>
 
 </details>
