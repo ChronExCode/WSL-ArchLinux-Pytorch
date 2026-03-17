@@ -230,11 +230,6 @@ wsl --set-version archlinux 2
 <br>
 
 <details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
-
-<details>
 <summary><strong>Opening WSL 2</strong></summary>
 
 1. Run Terminal as administrator  
