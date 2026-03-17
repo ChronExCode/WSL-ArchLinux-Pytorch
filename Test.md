@@ -195,7 +195,7 @@ to first download the distribution prior to installing.
 ## Change the Linux distribution Installed (ArchLinux)
 
 <details>
-<summary><strong>Open PowerShell</strong></summary>
+<summary><strong>Install ArchLinux</strong></summary>
 
 In windows, Search PowerShell > right-click > Select Run as administrator
 
