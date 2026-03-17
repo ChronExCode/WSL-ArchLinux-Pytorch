@@ -1,5 +1,4 @@
-#Installing WSL2/ArchLinux/PyTorch
-<hr>
+
 ## Install WSL 2
 
 <details>
