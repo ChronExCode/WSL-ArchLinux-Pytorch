@@ -2,9 +2,6 @@
 
 ## Install WSL 2
 
-<details>
-<summary><strong>Expand for details</strong></summary>
-
 <br>
 
 <details>
@@ -202,14 +199,7 @@ wsl --install --web-download -d[DistroName]
 
 </details>
 
-</details>
-
 ## Change the Linux distribution Installed (ArchLinux)
-
-<details>
-<summary><strong>Expand for details</strong></summary>
-
-<br>
 
 <details>
 <summary><strong>Open PowerShell</strong></summary>
@@ -236,6 +226,8 @@ wsl --set-version archlinux 2
 </details>
 
 ## Setting up ArchLinux
+
+<br>
 
 <details>
 <summary><strong>Expand for details</strong></summary>
@@ -481,12 +473,7 @@ startlxqt
 
 </details>
 
-</details>
-
 ## Install PyTorch
-
-<details>
-<summary><strong>Expand for details</strong></summary>
 
 <br>
 
@@ -522,12 +509,7 @@ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu13
 
 </details>
 
-</details>
-
 ## Set up Text to Speech (TTS)
-
-<details>
-<summary><strong>Expand for details</strong></summary>
 
 <br>
 
@@ -629,7 +611,5 @@ python3
 
 ```bash
 ```
-
-</details>
 
 </details>
