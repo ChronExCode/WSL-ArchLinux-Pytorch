@@ -1,29 +1,19 @@
-## Install WSL 2
+# Install WSL 2
 
 <br>
 
-<details>
-<summary><strong>Enable Virtualization on Windows (Enabled by default on Windows manufactured PCs)</strong></summary>
-
-<br>
-
-<details>
-<summary><strong>Access the UEFI/BIOS</strong></summary>
+## Enable Virtualization on Windows (Enabled by default on Windows manufactured PCs)
+### Access the UEFI/BIOS
 
 1. Open settings app > System > Recovery  
 2. Select Recovery Options > Advanced Startup > Restart Now  
 3. Choose Troubleshoot > Advanced options > UEFI Firmware Settings > Restart  
 4. UEFI utility will open post restart  
 
-</details>
+### Make changes in the UEFI/BIOS (Based on Manufacturer)
 
 <details>
-<summary><strong>Make changes in the UEFI/BIOS (Based on Manufacturer)</strong></summary>
-
-<br>
-
-<details>
-<summary><strong>Acer (Intel processor)</strong></summary>
+<summary>Acer (Intel processor)</summary>
 
 1. Select Advanced Page in BIOS  
 2. Enable the Intel VTX and Intel VTD settings (On certain devices press Ctrl+S first)  
@@ -32,7 +22,7 @@
 </details>
 
 <details>
-<summary><strong>Acer (AMD processor)</strong></summary>
+<summary>Acer (AMD processor)</summary>
 
 1. Select Advanced Page in BIOS  
 2. Enable the AMD-SVM and AMD-IOMMU settings (On certain devices press Ctrl+S first)  
@@ -41,7 +31,7 @@
 </details>
 
 <details>
-<summary><strong>ASUS (AMD Notebook)</strong></summary>
+<summary>ASUS (AMD Notebook)</summary>
 
 1. Select Advanced Page in BIOS  
 2. Enable SVM mode  
@@ -50,7 +40,7 @@
 </details>
 
 <details>
-<summary><strong>ASUS (Intel Notebook)</strong></summary>
+<summary>ASUS (Intel Notebook)</summary>
 
 1. Select Advanced Page in BIOS  
 2. Enable Virtualization Technology mode  
@@ -59,7 +49,7 @@
 </details>
 
 <details>
-<summary><strong>ASUS (Intel Motherboard)</strong></summary>
+<summary>ASUS (Intel Motherboard)</summary>
 
 1. Press F7 to enter Advanced Mode (ROG motherboards enter directly, no need to F7)  
 2. Select Advanced Page > CPU Configuration  
@@ -68,7 +58,7 @@
 </details>
 
 <details>
-<summary><strong>Dell</strong></summary>
+<summary>Dell</summary>
 
 1. Select Advanced page/Virtualization Support in BIOS > Virtualization  
 2. Enable Virtualization  
@@ -78,7 +68,7 @@
 </details>
 
 <details>
-<summary><strong>HP (OMEN by HP, Victus by HP, HP Spectre, HP ENVY, and HP Pavilion series)</strong></summary>
+<summary>HP (OMEN by HP, Victus by HP, HP Spectre, HP ENVY, and HP Pavilion series)</summary>
 
 1. Select Configuration in BIOS settings > Virtualization Technology  
 2. Enable Virtualization Technology  
@@ -87,7 +77,7 @@
 </details>
 
 <details>
-<summary><strong>HP (HP EliteBook, HP EliteDesk, HP ZHAN Notebook series)</strong></summary>
+<summary>HP (HP EliteBook, HP EliteDesk, HP ZHAN Notebook series)</summary>
 
 1. Select Advanced page in BIOS > System Options > press Enter  
 2. Enable Virtualization Technology (VTx)  
@@ -96,7 +86,7 @@
 </details>
 
 <details>
-<summary><strong>HP (HP workstations)</strong></summary>
+<summary>HP (HP workstations)</summary>
 
 1. Select Security tab in BIOS > USB Security > press Enter  
 2. Enable Virtualization Technology (VTx)  
@@ -105,7 +95,7 @@
 </details>
 
 <details>
-<summary><strong>Lenovo (Thinkpad)</strong></summary>
+<summary>Lenovo (Thinkpad)</summary>
 
 1. Select Security page in BIOS  
 2. Enable Intel(R) Virtualization Technology and Intel VT-d Feature  
@@ -114,7 +104,7 @@
 </details>
 
 <details>
-<summary><strong>Lenovo (Ideapad)</strong></summary>
+<summary>Lenovo (Ideapad)</summary>
 
 1. Select Configuration page in BIOS  
 2. Enable AMD V(TM) Technology  
@@ -123,7 +113,7 @@
 </details>
 
 <details>
-<summary><strong>Lenovo (ThinkCentre)</strong></summary>
+<summary>Lenovo (ThinkCentre)</summary>
 
 1. Select Advanced page in BIOS  
 2. Enable Intel (R) Virtualization Technology  
@@ -132,28 +122,20 @@
 </details>
 
 <details>
-<summary><strong>Unlisted Manufacturers</strong></summary>
+<summary>Unlisted Manufacturers</summary>
 
 **Refer to device's firmware documentation*
 
 </details>
 
-</details>
-
-<details>
-<summary><strong>Enable Virtual Machine Platform</strong></summary>
+### Enable Virtual Machine Platform
 
 1. Enter Windows  
 2. Search for Windows Features  
 3. Check the box beside Virtual Machine Platform  
 4. Press OK and restart the PC  
 
-</details>
-
-</details>
-
-<details>
-<summary><strong>Install WSL 2 on Windows</strong></summary>
+## Install WSL 2 on Windows
 
 1. Open Terminal (Search Terminal > right-click > Select Run as administrator)  
 2. Enter command*  
@@ -165,9 +147,9 @@ wsl --install
 3. Restart Computer  
 
 <details>
-<summary><strong>Note</strong></summary>
+<summary><em>*Note</em></summary>
 
-**The above command only works if WSL is not installed at all.*
+*The above command only works if WSL is not installed at all.*
 ```bash
 If you run
 
@@ -187,6 +169,5 @@ wsl --install --web-download -d[DistroName]
 
 to first download the distribution prior to installing.
 ```
-</details>
 </details>
 
