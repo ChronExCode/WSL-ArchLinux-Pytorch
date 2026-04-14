@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/libusb_demo.dir/link.d CMakeFiles/libusb_demo.dir/main.cpp.o -o libusb_demo  -lusb-1.0

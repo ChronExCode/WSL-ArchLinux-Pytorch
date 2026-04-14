@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hh/libusb_demo/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
