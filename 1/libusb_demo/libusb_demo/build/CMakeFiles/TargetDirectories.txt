@@ -1,3 +1,0 @@
-/home/hh/libusb_demo/build/CMakeFiles/libusb_demo.dir
-/home/hh/libusb_demo/build/CMakeFiles/edit_cache.dir
-/home/hh/libusb_demo/build/CMakeFiles/rebuild_cache.dir
